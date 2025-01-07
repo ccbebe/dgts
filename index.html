@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timeline Đấu Giá</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/vis-timeline@latest/styles/vis-timeline-graph2d.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vis-timeline@latest/standalone/umd/vis-timeline-graph2d.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Timeline Đấu Giá</h1>
+        <label for="startDate">Ngày bắt đầu Thông báo công khai lần 1:</label>
+        <input type="date" id="startDate" value="2025-01-06">
+
+        <table class="timeline">
+            <thead>
+                <tr>
+                    <th>TASK</th>
+                    <th>START</th>
+                    <th>END</th>
+                    <th>DURATION</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="row-tb1">
+                    <td>Thông báo công khai lần 1</td>
+                    <td class="start"></td>
+                    <td class="end"></td>
+                    <td class="duration"></td>
+                </tr>
+                <tr id="row-tb2">
+                    <td>Thông báo công khai lần 2</td>
+                    <td class="start"></td>
+                    <td class="end"></td>
+                    <td class="duration"></td>
+                </tr>
+                <tr id="row-niemYet">
+                    <td>Niêm yết tài sản</td>
+                    <td class="start"></td>
+                    <td class="end"></td>
+                    <td class="duration"></td>
+                </tr>
+                <tr id="row-muaHoSo">
+                    <td>Mua hồ sơ</td>
+                    <td class="start"></td>
+                    <td class="end"></td>
+                    <td class="duration"></td>
+                </tr>
+                <tr id="row-xemTaiSan">
+                    <td>Xem tài sản</td>
+                    <td class="start"></td>
+                    <td class="end"></td>
+                    <td class="duration"></td>
+                </tr>
+                <tr id="row-nopTien">
+                    <td>Nộp tiền đặt trước</td>
+                    <td class="start"></td>
+                    <td class="end"></td>
+                    <td class="duration"></td>
+                </tr>
+                <tr id="row-dauGia">
+                    <td>Ngày đấu giá</td>
+                    <td class="start"></td>
+                    <td class="end"></td>
+                    <td class="duration"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div id="visualization"></div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

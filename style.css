@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.timeline {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.timeline th,
+.timeline td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.timeline thead th {
+    background-color: #f0f0f0;
+    position: sticky;
+    top: 0;
+    z-index: 11;
+}
+
+.vis-item.vis-range.task-1 {
+    background-color: #f28d6f;
+    border-color: #f28d6f;
+}
+
+.vis-item.vis-range.task-2 {
+    background-color: #f2b86f;
+    border-color: #f2b86f;
+}
+
+.vis-item.vis-range.task-3 {
+    background-color: #f2d46f;
+    border-color: #f2d46f;
+}
+
+.vis-item.vis-range.task-4 {
+    background-color: #d8f26f;
+    border-color: #d8f26f;
+}
+
+.vis-item.vis-range.task-5 {
+    background-color: #6ff28d;
+    border-color: #6ff28d;
+}
+
+.vis-item.vis-range.task-6 {
+    background-color: #6fb8f2;
+    border-color: #6fb8f2;
+}
+
+.vis-item.vis-range.task-7 {
+    background-color: #8a66e5;
+    border-color: #8a66e5;
+    color: white;
+    font-weight: bold;
+}
+
+.legend {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.legend p {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.legend-color {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#visualization {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
