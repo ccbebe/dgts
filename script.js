@@ -77,7 +77,7 @@ function createTimeline(startDate) {
         { id: 4, content: 'Mua hồ sơ', start: muaHoSoStart, end: muaHoSoEnd, title: 'Mua hồ sơ đấu giá' },
         { id: 5, content: 'Xem tài sản', start: xemTaiSanStart, end: xemTaiSanEnd, title: 'Thời gian xem tài sản' },
         { id: 6, content: 'Nộp tiền', start: nopTienStart, end: nopTienEnd, title: 'Nộp tiền đặt trước' },
-        { id: 7, content: 'DG', start: dauGiaStart, end: dauGiaEnd, title: 'Ngày tổ chức đấu giá', type: 'range' }
+        { id: 7, content: 'ĐG', start: dauGiaStart, end: dauGiaEnd, title: 'Ngày tổ chức đấu giá', type: 'range' }
     ]);
 
     const options = {
